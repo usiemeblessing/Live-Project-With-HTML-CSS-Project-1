@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px 0;
+}
+
+.logo {
+  cursor: pointer;
+  width: 150px;
+}
+
+.sign-in-btn {
+  background-color: red;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.87),
+      rgba(0, 0, 0, 0.479),
+      rgba(0, 0, 0, 0.87)
+    ),
+    url(../images/background-image.jpg);
+  text-align: center;
+  border-bottom: 8px solid #222;
+}
+
+.top-section-content {
+  margin: 140px auto;
+  width: 640px;
+}
+
+.top-section h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.top-section h2 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.membership {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.email-get-started {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.email-get-started input {
+  width: 400px;
+  padding: 20px 5px;
+  border-radius: 3px;
+  border: none;
+}
+
+.get-started-btn {
+  width: 220px;
+  background-color: red;
+  padding: 14px 15px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 25px;
+}
+/* End of Top Section */
+
+.section-image {
+  width: 500px;
+  height: 350px;
+}
+
+/* Section Two Start */
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  border-bottom: 8px solid #222;
+  padding: 70px 45px;
+}
+
+.section-h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  text-align: left;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+/* Section Two */
+
+.section-two .right-content {
+  position: relative;
+}
+.section-two-video {
+  position: absolute;
+  width: 340px;
+  right: 80px;
+  bottom: 90px;
+}
+
+/* Section Three Start */
+.section-three {
+  gap: 100px;
+}
+.section-three .left-content {
+  position: relative;
+}
+
+.animation-box {
+  display: flex;
+  position: absolute;
+  background-color: black;
+  border: 2px solid #222;
+  border-radius: 5px;
+}
+
+/* Section Four Start */
+.section-four {
+  height: 250px;
+  text-align: left;
+}
+
+/* Section Five Start */
+
+/* Section Six Start */
+.section-six {
+  padding: 70px 0;
+  border-bottom: 8px solid #222;
+  margin-bottom: 70px;
+}
+
+.questions-box {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.faq-h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.question {
+  background-color: #222;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.contact-us {
+  margin-left: 165px;
+  margin-bottom: 30px;
+  color: #4d4c4c;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  margin-bottom: 20px;
+}
+
+footer ul a {
+  color: #4d4c4c;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer p {
+  margin-left: 165px;
+  margin-bottom: 30px;
+  color: #4d4c4c;
+  font-size: 14px;
+}
