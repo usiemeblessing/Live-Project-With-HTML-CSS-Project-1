@@ -1,74 +1,104 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Live Project With HTML & CSS (Project 1)</title>
-  </head>
-  <body>
-    <div class="top-section">
-      <div class="overlay">
-        <nav>
-          <img src="images/netflix-logo.png" alt="Netflix Logo" class="logo" />
-          <button class="sign-in-btn">Sign In</button>
-        </nav>
-        <div class="top-section-content">
-          <h1 class="top-section-h1">
-            Unlimited movies, TV <br />
-            shows, and more.
-          </h1>
-          <h2 class="top-section-h2">Watch Anywhere. Cancel Anytime.</h2>
-          <p class="membership">
-            Ready to watch? Enter your email to create or restart your
-            membership.
-          </p>
-          <div class="email-get-started">
-            <form action="">
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Email Address"
-              />
-            </form>
-            <button class="get-started-btn">Get Started ></button>
-          </div>
-        </div>
-      </div>
-    </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Live Project With HTML & CSS (Project 1)</title>
+	</head>
+	<body>
+		<div class="top-section">
+			<div class="overlay">
+				<nav>
+					<img
+						src="images/logo.png"
+						alt="Netflix Logo"
+						class="logo"
+					/>
+					<button class="sign-in-btn">Sign In</button>
+				</nav>
+				<div class="top-section-content">
+					<h1 class="top-section-h1">
+						Unlimited movies, TV <br />
+						shows, and more.
+					</h1>
+					<h2 class="top-section-h2">
+						Watch Anywhere. Cancel Anytime.
+					</h2>
+					<p class="membership">
+						Ready to watch? Enter your email to create or restart
+						your membership.
+					</p>
+					<div class="email-get-started">
+						<form action="">
+							<input
+								type="email"
+								id="email"
+								name="email"
+								placeholder="Email Address"
+							/>
+						</form>
+						<button class="get-started-btn">
+							<p>Get Started</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="get-started-arrow"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M8.25 4.5l7.5 7.5-7.5 7.5"
+								/>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- Section Two Start -->
+		<!-- Section Two Start -->
 
-    <div class="section-two">
-      <div class="left-content">
-        <h2 class="section-h2">Enjoy on your TV.</h2>
-        <p class="section-text">
-          Watch on Smart TVs, Playstation, Xbox, <br />
-          Chromecast, Apple TV, Blu-ray players, and <br />
-          more.
-        </p>
-      </div>
-      <div class="right-content">
-        <video class="section-two-video" autoplay playsinline muted loop>
-          <source
-            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
-            type="video/mp4"
-          />
-        </video>
-        <img
-          src="images/tv-image.png"
-          alt="A TV Screen image"
-          class="section-image"
-        />
-      </div>
-    </div>
+		<div class="section-two">
+			<div class="left-content">
+				<h2 class="section-h2">Enjoy on your TV.</h2>
+				<p class="section-text">
+					Watch on Smart TVs, Playstation, Xbox, <br />
+					Chromecast, Apple TV, Blu-ray players, and <br />
+					more.
+				</p>
+			</div>
+			<div class="right-content">
+				<video
+					class="section-two-video"
+					autoplay
+					playsinline
+					muted
+					loop
+				>
+					<source
+						src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+						type="video/mp4"
+					/>
+				</video>
+				<img
+					src="images/tv-image.png"
+					alt="A TV Screen image"
+					class="section-image"
+				/>
+			</div>
+		</div>
 
-    <!-- Section Three Start -->
-    <div class="section-three">
-      <div class="left-content">
-        <!-- <div class="animation-box">
+		<!-- Section Three Start -->
+		<div class="section-three">
+			<div class="left-content">
+				<!-- <div class="animation-box">
           <img
             src="images/stranger-thing.png"
             width="40px"
@@ -86,119 +116,143 @@
           />
         </div> -->
 
-        <img
-          src="images/mobile-phone-image.jpg"
-          alt="A Mobile Phone image"
-          class="section-image"
-        />
-      </div>
-      <div class="right-content">
-        <h2 class="section-h2">Download your shows <br />to watch offline</h2>
-        <p class="section-text">
-          Save your favorites easily and always have <br />something to watch
-        </p>
-      </div>
-    </div>
+				<img
+					src="images/mobile-phone-image.jpg"
+					alt="A Mobile Phone image"
+					class="section-image"
+				/>
+			</div>
+			<div class="right-content">
+				<h2 class="section-h2">
+					Download your shows <br />to watch offline
+				</h2>
+				<p class="section-text">
+					Save your favorites easily and always have <br />something
+					to watch
+				</p>
+			</div>
+		</div>
 
-    <!-- Section Four Start -->
-    <div class="section-four">
-      <div class="left-content">
-        <h2 class="section-h2">Watch everywhere.</h2>
-        <p class="section-text">
-          Stream unlimited movies and TV shows on <br />on your phone, tablet,
-          laptop, and TV.
-        </p>
-      </div>
-      <div class="right-content"></div>
-    </div>
+		<!-- Section Four Start -->
+		<div class="section-four">
+			<div class="left-content section-four-left-content">
+				<h2 class="section-h2">Watch everywhere.</h2>
+				<p class="section-text">
+					Stream unlimited movies and TV shows on <br />on your phone,
+					tablet, laptop, and TV.
+				</p>
+			</div>
+		</div>
 
-    <!-- Section Five Start -->
-    <div class="section-five">
-      <div class="left-content">
-        <img
-          src="images/kids-image.png"
-          alt="Image of kids"
-          class="section-image"
-        />
-      </div>
-      <div class="right-content">
-        <h2 class="section-h2">Create Profile for kids.</h2>
-        <p class="section-text">
-          Send kids on adventures with their favorite <br />
-          characters in a space made just for them-- <br />free with your
-          membership
-        </p>
-      </div>
-    </div>
+		<!-- Section Five Start -->
+		<div class="section-five">
+			<div class="left-content">
+				<img
+					src="images/kids-image.png"
+					alt="Image of kids"
+					class="section-image"
+				/>
+			</div>
+			<div class="right-content">
+				<h2 class="section-h2">Create Profile for kids.</h2>
+				<p class="section-text">
+					Send kids on adventures with their favorite <br />
+					characters in a space made just for them-- <br />free with
+					your membership
+				</p>
+			</div>
+		</div>
 
-    <!-- Section Six Start -->
-    <div class="section-six">
-      <h2 class="faq-h2">Frequently Asked Questions</h2>
-      <div class="questions-box">
-        <div class="question">What is Netflix? <span>+</span></div>
-        <div class="question">How much does Netflix cost?<span>+</span></div>
-        <div class="question">Where can I watch?<span>+</span></div>
-        <div class="question">How do I cancel?<span>+</span></div>
-        <div class="question">What can I watch on Netflix?<span>+</span></div>
-        <div class="question">Is Netflix good for kids?<span>+</span></div>
-      </div>
-      <p class="membership">
-        Ready to watch? Enter your email to create or restart your membership.
-      </p>
-      <div class="email-get-started">
-        <form action="">
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Email Address"
-          />
-        </form>
-        <button class="get-started-btn">Get Started ></button>
-      </div>
-    </div>
+		<!-- Section Six Start -->
+		<div class="section-six">
+			<h2 class="faq-h2">Frequently Asked Questions</h2>
+			<div class="questions-box">
+				<div class="question">What is Netflix? <span>+</span></div>
+				<div class="question">
+					How much does Netflix cost?<span>+</span>
+				</div>
+				<div class="question">Where can I watch?<span>+</span></div>
+				<div class="question">How do I cancel?<span>+</span></div>
+				<div class="question">
+					What can I watch on Netflix?<span>+</span>
+				</div>
+				<div class="question">
+					Is Netflix good for kids?<span>+</span>
+				</div>
+			</div>
+			<p class="membership">
+				Ready to watch? Enter your email to create or restart your
+				membership.
+			</p>
+			<div class="email-get-started">
+				<form action="">
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="Email Address"
+					/>
+				</form>
+				<button class="get-started-btn">
+					<p>Get Started</p>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="get-started-arrow"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M8.25 4.5l7.5 7.5-7.5 7.5"
+						/>
+					</svg>
+				</button>
+			</div>
+		</div>
 
-    <!-- Section Seven Start -->
-    <footer>
-      <h3 class="contact-us">Questions? Contact us.</h3>
-      <div class="footer-links">
-        <div>
-          <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Investor Relations</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Speed Test</a></li>
-          </ul>
-        </div>
+		<!-- Section Seven Start -->
+		<footer>
+			<a href="#"><h3 class="contact-us">Questions? Contact us.</h3></a>
+			<div class="footer-links">
+				<div>
+					<ul>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Investor Relations</a></li>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Speed Test</a></li>
+					</ul>
+				</div>
 
-        <div>
-          <ul>
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Cookie Preference</a></li>
-            <li><a href="#">Legal Notices</a></li>
-          </ul>
-        </div>
+				<div>
+					<ul>
+						<li><a href="#">Help Center</a></li>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Cookie Preferences</a></li>
+						<li><a href="#">Legal Notices</a></li>
+					</ul>
+				</div>
 
-        <div>
-          <ul>
-            <li><a href="#">Account</a></li>
-            <li><a href="#">Ways to Watch</a></li>
-            <li><a href="#">Corporate Information</a></li>
-            <li><a href="#">Only on Netflix</a></li>
-          </ul>
-        </div>
+				<div>
+					<ul>
+						<li><a href="#">Account</a></li>
+						<li><a href="#">Ways to Watch</a></li>
+						<li><a href="#">Corporate Information</a></li>
+						<li><a href="#">Only on Netflix</a></li>
+					</ul>
+				</div>
 
-        <div>
-          <ul>
-            <li><a href="#">Media Center</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Speed Test</a></li>
-          </ul>
-        </div>
-      </div>
-      <p>Netflix Nigeria</p>
-    </footer>
-  </body>
+				<div>
+					<ul>
+						<li><a href="#">Media Center</a></li>
+						<li><a href="#">Terms of Use</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<p>Netflix Nigeria</p>
+		</footer>
+	</body>
 </html>
